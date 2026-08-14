@@ -2,4 +2,4 @@
 
 Web Development 
 
-Live site: https://akishajane-belamide.github.io/find-calm-in-manila/
+Live site: https://akishajane-belamide.github.io/Find-Calm-in-Manila/
