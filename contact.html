@@ -46,6 +46,70 @@
         color: balck;
         background-color: #3b8132;
         }
+
+    form{
+    width:85%;
+    margin:30px auto;
+}
+
+fieldset{
+    background:#dce5de;
+    border:none;
+    border-radius:30px;
+    padding:40px;
+    box-shadow:0 8px 15px rgba(0,0,0,0.1);
+}
+
+legend{
+    background:#3f8b2f;
+    color:white;
+    padding:10px 20px;
+    border-radius:10px;
+    font-size:28px;
+    font-weight:bold;
+}
+label{
+    display:block;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-bottom:8px;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:15px;
+    border:2px solid #b8c6ba;
+    border-radius:10px;
+    font-size:18px;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+
+button{
+    display:block;
+    width:100%;
+    margin-top:25px;
+    padding:18px;
+    background:#3f8b2f;
+    color:white;
+    border:none;
+    border-radius:12px;
+    font-size:22px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#347326;
+}
     
 </style>
 </head>
@@ -72,6 +136,28 @@
   <h2>CONTACT NUMBER:</h2>
   <p>09941701870</p>
 </section>
+
+<form>
+    <fieldset>
+        <legend>Your Details</legend>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="subject">Subject</label><br>
+        <select id="subject" name="subject">
+        <option value="suggest-a-place">suggest a place</option>
+        <option value="Correct-Details">correct details</option>
+        <option value="Website-Feedback">website feedback</option>
+        <option value="Travel-Question">Travel Question</option>
+        <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" rows="6" cols="40" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+</fieldset>
+</form>
 
 <footer>
  <p>Find Your Place by Akisha Belamide &middot; 2026</p>
