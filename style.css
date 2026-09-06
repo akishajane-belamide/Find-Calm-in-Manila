@@ -10,7 +10,7 @@
 }
 
 /* ==========================================
-   2. BASE STYLES
+   2. BASE 
    ========================================== */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -34,7 +34,7 @@ img {
 }
 
 /* ==========================================
-   3. LAYOUT REGIONS
+   3. LAYOUT
    ========================================== */
 header {
   background-color: var(--brand-color);
@@ -60,7 +60,7 @@ footer {
 }
 
 /* ==========================================
-   4. STYLE THE NAV
+   4. NAV
    ========================================== */
 nav ul {
   list-style: none;
@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 /* ==========================================
-   5. PRODUCT CARDS (Activity 5.2)
+   5. PRODUCT CARDS 
    ========================================== */
 .product-card, article {
   background-color: var(--white);
@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 /* ==========================================
-   6. CONTACT FORM STYLES
+   6. CONTACT FORM
    ========================================== */
 form {
   width: 85%;
@@ -177,7 +177,7 @@ button[type="submit"]:hover {
   opacity: 0.9;
 }
 
-/* Visible Focus State (Required) */
+/* Visible Focus State */
 input:focus,
 textarea:focus,
 select:focus,
