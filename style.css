@@ -83,20 +83,17 @@ nav a:hover {
 /* ==========================================
    5. PRODUCT CARDS 
    ========================================== */
-.place-grid {
+.product-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
 
-.product-card, article {
+.product-card {
   background-color: var(--white);
   border-radius: 12px;
   padding: 20px;
   border-left: 6px solid var(--brand-color);
-  margin: 20px auto;
-  width: 80%;
-  max-width: 600px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
   flex: 1 1 240px;
