@@ -36,10 +36,18 @@ img {
 /* ==========================================
    3. LAYOUT
    ========================================== */
-header {
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: var(--brand-color);
   color: var(--white);
   padding: 20px 0;
+}
+
+.site-header nav ul {
+  display: flex;
+  gap: 20px;
 }
 
 nav {
@@ -62,19 +70,6 @@ footer {
 /* ==========================================
    4. NAV
    ========================================== */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-nav li {
-  display: inline-block;
-}
-
 nav a {
   color: var(--dark-ink);
   text-decoration: none;
@@ -88,6 +83,12 @@ nav a:hover {
 /* ==========================================
    5. PRODUCT CARDS 
    ========================================== */
+.place-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .product-card, article {
   background-color: var(--white);
   border-radius: 12px;
@@ -98,6 +99,7 @@ nav a:hover {
   max-width: 600px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
+  flex: 1 1 240px;
 }
 
 .product-title, h3 {
