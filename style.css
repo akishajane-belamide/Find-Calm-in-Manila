@@ -19,7 +19,12 @@
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 1.6;
-  background-color: var(--light-bg);
+  background-image: url('n1.jpeg');
+‎  background-repeat: no-repeat;
+‎  background-attachment: fixed;
+‎  background-size: cover;
+‎  margin: 0;
+‎  padding: 0;
   color: var(--dark-ink);
   margin: 0;
   padding: 0;
