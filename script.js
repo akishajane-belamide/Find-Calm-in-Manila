@@ -4,16 +4,15 @@ const currentYear = 2026;
 
 // 2. Declares a let for a running count starting at 0
 let runningCount = 0;
-runningCount = 3; // Bilang ng mga na-review mong places sa guide mo
+runningCount = 3; 
 
 // 3. Uses document.getElementById(...).textContent to write guide name
-// Tandaan: Kailangan nating lagyan ng id ang HTML element mo mamaya
 const titleElement = document.getElementById("guide-title");
 if (titleElement) {
     titleElement.textContent = guideName;
 }
 
-// 4. Writes a dynamic copyright line into your footer
+// 4. Writes a dynamic copyright line into footer
 const footerElement = document.getElementById("dynamic-footer");
 if (footerElement) {
     footerElement.textContent = `© ${currentYear} ${guideName} by Akisha Belamide`;
